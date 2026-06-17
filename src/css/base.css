@@ -28,4 +28,12 @@ h3{
   body{
     font-size: 24px;
   }
+  h2{
+font-size: 48px;
+  line-height: 1.16667;
+  }
+  h3{
+font-size: 28px;
+  line-height: 1.14286;
+  }
 }

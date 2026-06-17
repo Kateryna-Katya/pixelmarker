@@ -132,3 +132,56 @@ height: 682px;
 width: 592px;
 }
 }
+/* THE WORLD OF TRIPLE CHILI */
+.world-section{
+    background-image: url("/img/world/mob.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+height: 1026px;
+}
+.world-text{
+    text-align: center;
+}
+.world-list-title{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.world-list{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    padding-left: 20px;
+    gap: 12px;
+}
+.world-big-text{
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.world-section{
+    background-image: url("/img/world/desk.png");
+height: 924px;
+}
+.world-section h3{
+    margin-bottom: 52px;
+}
+.world-wrapper{
+width: 430px;
+margin-left: 520px;
+}
+
+.world-list-title{
+margin-left: 10px;
+}
+.world-list{
+margin-left: 30px;
+}
+.world-big-text{
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: center;
+}    
+}
