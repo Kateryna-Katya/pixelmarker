@@ -1,0 +1,68 @@
+@import url('./styles.css');
+
+
+.background {
+font-family: "Momo Trust Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: justify;
+    color: #fff;
+}
+
+.privacy-title {
+    font-family: "Momo Trust Sans", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.14286;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.policy-number {
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+    .privacy-title {
+font-size: 32px;
+    }
+
+
+}
