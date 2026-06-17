@@ -14,67 +14,72 @@
 }
 
 .age-modal__content {
-    background-image: url("/img/age/mob.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    padding: 96px 20px 65px 52px;
-    width: 375px;
-    height: 504px;
-}
-
-.age-span {
-    font-weight: 900;
-}
-
-
-
-.age-modal__content p {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.625;
-    text-align: right;
-    color: #0a0a30;
-}
-
-.age-modal__buttons {
+box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.18);
+    background: radial-gradient(97.99% 53.62% at 50.01% 50%, #004b00 0%, #001b00 100%);
+border-radius: 20px;
+    padding: 48px 20px;
+    width: 335px;
+    height: 324px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    align-items: end;
-    margin-top: 6px;
+    align-items: center;
+    gap: 31px;
+}
+.age-text{
+font-family: "Momo Trust Sans", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+color: #fff;
+}
+.age-span {
+color: #fd0f00;
+}
+.age-text-content {
+font-family: "Momo Trust Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
+}
+.age{
+font-weight: 800;
+}
+.age-modal__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+justify-content: center;
 }
 
 
 #enterBtn {
     border: none;
-    border-radius: 12px;
-    padding: 12px;
-    width: 250px;
-    height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background: #40f;
-    font-family: "Montserrat Alternates", sans-serif;
+border-radius: 2px;
+    padding: 7px 15px;
+    width: 140px;
+    height: 34px;
+    background: #42ad1e;
+font-family: "Sansation", sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857;
     color: #fff;
 }
 
 #exitBtn {
     border: none;
-    border-bottom: 2px solid #fff;
-    padding: 10px;
-    width: 250px;
-    height: 40px;
-    background-color: inherit;
-    font-family: "Montserrat Alternates", sans-serif;
+border-radius: 2px;
+    padding: 7px 15px;
+    width: 140px;
+    height: 34px;
+    background: #fd0f00;
+font-family: "Sansation", sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857;
     color: #fff;
 }
 
@@ -84,32 +89,23 @@
 
 @media only screen and (min-width: 1440px) {
     .age-modal__content {
-        background-image: url("/img/age/desk.png");
-        width: 1440px;
-        height: 249px;
-        padding: 47px 172px;
+border-radius: 20px;
+    padding: 120px;
+    width: 905px;
+    height: 476px;
     }
+.age-text{
+    font-size: 60px;
+}
 
-    .mob {
-        display: none;
-    }
+.age-text-content {
+font-size: 28px;
+}
+#enterBtn {
+width: 103px;
+}
 
-
-    .age-modal__content p {
-        font-size: 20px;
-        text-align: left;
-
-    }
-
-    .age-modal__buttons {
-        margin-top: 24px;
-        flex-direction: row;
-        justify-content: start;
-        gap: 64px;
-    }
-
-    #exitBtn {
-        width: 197px;
-    }
-
+#exitBtn {
+width: 98px;
+}
 }
