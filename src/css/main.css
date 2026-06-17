@@ -115,3 +115,20 @@ font-size: 32px;
         background-image: url("/img/disclaimer/desk.png");
     }
 }
+/* ABOUT THE GAME */
+.about-section{
+    background-image: url("/img/about/mob.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        height: 892px;
+}
+@media only screen and (min-width: 1440px) {
+.about-section{
+    background-image: url("/img/about/desk.png");
+height: 682px;
+} 
+.about-wrapper{
+width: 592px;
+}
+}
