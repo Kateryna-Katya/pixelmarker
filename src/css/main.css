@@ -253,3 +253,273 @@ gap: 116px;
 width: 459px;
 }
 }
+/* Launch Triple Chili Instantly */
+.demo-section {
+background: linear-gradient(180deg, #14951d 0%, #0d0d0d 100%);
+}
+
+.demo-wrapper {
+    position: relative;
+    margin:0 auto;
+border-radius: 28px;
+    width: 335px;
+    height: 180px;
+}
+
+.demo-img {
+        display: block;
+border-radius: 28px;
+    width: 335px;
+    height: 180px;
+}
+
+/* ===== КНОПКА ===== */
+
+.demo-btn {
+
+
+}
+
+/* ===== IFRAME ===== */
+
+.iframe-wrapper {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-49%);
+border-radius: 28px;
+    width: 335px;
+    height: 180px;
+    z-index: 20;
+
+    /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+    pointer-events: none;
+}
+
+#gameIframe {
+border-radius: 28px;
+    width: 327px;
+    height: 175px;
+    border: none;
+    display: none;
+    background: #000;
+
+}
+
+/* АКТИВНИЙ СТАН */
+.iframe-wrapper.active {
+    pointer-events: auto;
+}
+
+#gameIframe.active {
+    display: block;
+}
+
+/* ===== КНОПКА ЗАКРИТТЯ ===== */
+
+#closeIframeBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    display: none;
+
+    z-index: 9999;
+    /* 🔥 НАД iframe */
+    pointer-events: auto;
+}
+
+#closeIframeBtn.active {
+    display: block;
+}
+
+.close-img {
+    width: 24px;
+    height: 24px;
+
+}
+.iframe-wrapper {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 328px;
+    height: 174px;
+
+    overflow: hidden;
+
+    transition: all .4s ease;
+}
+
+#gameIframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: none;
+}
+
+#gameIframe.active {
+    display: block;
+}
+
+/* fullscreen тільки всередині секції */
+
+.iframe-wrapper.fullscreen-section {
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100vh;
+
+    z-index: 99999;
+
+
+    background: #000;
+}
+
+/* кнопка закриття поверх */
+
+#closeIframeBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100000;
+}
+.demo-btn-full{
+    background: none;
+    border: none;
+}
+.btn-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.demo-list-title{
+    margin-top: 28px;
+    font-weight: 700;
+        font-size: 20px;
+}
+.demo-list{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 28px;
+}
+.demo-big-text{
+    margin-top: 28px;
+    font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+    .demo-section{
+   margin-top: -1px;
+
+    }
+.demo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+    .demo-wrapper {
+        margin: 40px auto 0;
+width: 691px;
+    height: 370px;
+    }
+
+    .demo-img {
+width: 691px;
+    height: 370px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .iframe-wrapper {
+
+        left: 50%;
+        transform: translateX(-49.3%);
+
+    }
+
+.iframe-wrapper {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+
+width: 672px;
+    height: 354px;
+
+    overflow: hidden;
+
+    transition: all .4s ease;
+}
+
+#gameIframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: none;
+}
+
+#gameIframe.active {
+    display: block;
+}
+
+/* fullscreen тільки всередині секції */
+
+.iframe-wrapper.fullscreen-section {
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100vh;
+
+    z-index: 99999;
+
+
+    background: #000;
+}
+.btn-wrapper {
+flex-direction: row;
+margin-top: 56px;
+}
+
+.demo-list-title {
+margin-left: 30px;
+font-size: 24px;
+}
+
+.demo-list {
+margin-left: 30px;
+width: 393px;
+font-size: 18px;
+}
+
+.demo-big-text {
+margin-top: 40px;
+font-size: 24px;
+}
+.demo-text-wrapper{
+    width: 484px;
+}
+}

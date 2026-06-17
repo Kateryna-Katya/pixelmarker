@@ -116,3 +116,55 @@
         </div>   
     </div>
 </section>
+<section class="demo-section" id="demo">
+    <div class="container">
+        <h2>Launch Triple Chili Instantly</h2>
+        <h3>Enjoy the experience<br class="mob"/> directly on <br class="mob" />pixelmarker.space.</h3>
+        <div class="demo-container">
+                <div class="demo-wrapper" id="game">
+                    <picture>
+                        <source srcset="
+                                        /img/demo/demo-desk.png 1x,
+                                        /img/demo/demo-desk@2x.png 2x
+                                        " media="(min-width: 1440px)" />
+                        <source srcset="
+                                        /img/demo/demo-mob.png 1x,
+                                        /img/demo/demo-mob@2x.png 2x
+                                        " media="(max-width: 1439px)" />
+                        <img class="demo-img" src="/img/demo/demo-mob.png" alt="X-Demon" loading="lazy" />
+                    </picture>
+                
+                    <div class="iframe-wrapper">
+                
+                
+                        <iframe id="gameIframe" name="gameIframe" allowfullscreen allow="fullscreen; autoplay"></iframe>
+                
+                        <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+                            <img class="close-img" src="/img/demo/close.png" alt="Close">
+                        </button>
+                    </div>
+                </div>
+                <div class="demo-text-wrapper">
+                    <p class="demo-list-title">Implementation requirements:</p>
+                    <ul class="demo-list">
+                        <li class="demo-item">Embedded game frame or game container</li>
+                        <li class="demo-item">No redirects to external websites</li>
+                        <li class="demo-item">Fullscreen option available</li>
+                        <li class="demo-item">Responsive on desktop and mobile devices</li>
+                    </ul>
+<div class="btn-wrapper">
+            <a class="demo-btn" href="#" data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/xdemon"
+                target="gameIframe">
+<img src="/img/demo/start-btn.png" alt="start" loading="lazy">
+            </a>
+<button class="demo-btn-full" id="fullscreenBtn"
+    data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/xdemon">
+
+    <img src="/img/demo/fullscreen.png" alt="fullscreen" loading="lazy">
+</button></div>
+                </div>
+        </div>
+        <p class="demo-big-text">If the game does not load immediately, refresh the page<br class="mob"/>
+        or try another browser.</p>
+    </div>
+</section>
