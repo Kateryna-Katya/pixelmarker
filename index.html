@@ -2,58 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/pixelmarker/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Vanilla App Template</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Triple Chili</title>
     <script type="module" crossorigin src="/pixelmarker/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/pixelmarker/assets/styles-BDtFgQ_M.css">
+    <link rel="stylesheet" crossorigin href="/pixelmarker/assets/styles-COdMT_fS.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container">
+        <h1 class="visually-hidden">Triple Chili</h1>
+        <div class="home-wrapper">
+            <picture>
+                <source srcset="/pixelmarker/assets/logo-desk-CNyxIOyu.png 1x, /pixelmarker/assets/logo-desk@2x-Ddmx4FnL.png 2x" media="(min-width: 1439px)" />
+                <source srcset="/pixelmarker/assets/logo-mob-COSqo1XD.png 1x, /pixelmarker/assets/logo-mob@2x-D-DNAfGU.png 2x" media="(max-width: 1438px)" />
+                <img class="hero-logo" src="/pixelmarker/assets/logo-mob-COSqo1XD.png" alt="Triple Chili" loading="lazy" />
+            </picture>
+            <div class="home-text-wrapper">
+                <p class="home-big">It's basically a spicy slot game with some<br class="desk"/> ancient civilization vibes thrown in.</p>
+                <p>So you've got hot peppers, tropical fruit, and ancient pyramids all mashed together - sounds crazy but it actually works
+                pretty well. They took regular<br class="mob"/>
+                slot mechanics and gave it this<br class="mob" />
+                Aztec/Mayan makeover<br class="mob" />
+                that looks pretty sweet.</p>
+                <p class="home-text-two">With 5x8 reels, there's constantly stuff going on - never a dull moment.</p>
+            </div>
+            <a class="hero-btn pulse" href="#demo">
+<img src="/pixelmarker/assets/btn-DcM4P1gg.png" alt="play" loading="lazy">
+            </a>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
