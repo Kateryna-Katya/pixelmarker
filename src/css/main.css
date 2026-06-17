@@ -102,3 +102,16 @@ font-size: 32px;
     margin-top: 16px;
 }
 }
+/* DISCLAIMER */
+.disclaimer-section{
+    background-image: url("/img/disclaimer/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.disclaimer-section {
+        background-image: url("/img/disclaimer/desk.png");
+    }
+}
